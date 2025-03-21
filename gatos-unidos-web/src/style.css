@@ -1,0 +1,86 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: #292929;
+  }
+  
+nav {
+  border-bottom: 5px solid black;
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  max-height: 200px;
+  margin-bottom: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  width: 15%;
+  text-align: center;
+}
+
+nav li a {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 50%;
+  display: block;
+  padding-right: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ffae00;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+.Content {
+  margin-top: 5%;
+}
+
+table {
+  margin: auto;
+  border-spacing: 30px; /* Espacio entre celdas */
+  border-collapse: separate; /* Necesario para que funcione */
+}
+
+table th {
+  font-size: 25px;
+  text-align: center;
+}
+
+table td {
+  padding-top: 10px;
+  border-spacing: 5px;
+}
+
+table img {
+  max-width: 100%; /* Asegura que las imágenes no se desborden */
+  height: auto; /* Mantiene las proporciones de la imagen */
+  display: block; /* Elimina el espacio extra debajo de la imagen */
+  margin: 0 auto; /* Centra la imagen dentro de la celda */
+  border-radius: 5px;
+}
+
+.imgLogo {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.imgGato {
+  width: 300px;
+  height: 200px;
+}
